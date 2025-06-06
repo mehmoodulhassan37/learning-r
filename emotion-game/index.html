@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Emotion Guessing Game</h1>
+        <p class="instructions">Click <strong>Start Game</strong> to guess which emotion matches each emoji. See if you can get them all right!</p>
+        <button id="start-btn" class="start">Start Game</button>
+        <div id="game" class="hidden">
+            <div id="emoji" class="emoji"></div>
+            <div id="options" class="options"></div>
+            <p id="feedback" class="feedback"></p>
+            <button id="next-btn" class="next hidden">Next</button>
+            <p id="score" class="score"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
