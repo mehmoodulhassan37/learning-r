@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    color: #333;
+}
+
+.instructions {
+    margin-bottom: 20px;
+}
+
+.start, .next {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.emoji {
+    font-size: 80px;
+    margin: 20px 0;
+}
+
+.options button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.feedback {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
